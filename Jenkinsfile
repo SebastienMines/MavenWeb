@@ -12,11 +12,6 @@ pipeline {
 			bat 'mvn test'
 			}
 		}
-		stage("Quality control Sonar") {
-		steps{
-			bat 'mvn sonar:sonar'
-			}
-		}
 		stage("Deploy on TomCat") {
 		steps {
 			bat 'tomcat:deploy'
