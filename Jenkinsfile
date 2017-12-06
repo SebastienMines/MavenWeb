@@ -17,9 +17,9 @@ pipeline {
 			bat 'mvn sonar:sonar'
 			}
 		}
-		stage("TomCat Deploiement") {
+		stage("Deploy on TomCat") {
 		steps {
-			bat 'mvn tomcat:deploy'
+			bat 'tomcat:deploy'
 			}
 		}
 	}
