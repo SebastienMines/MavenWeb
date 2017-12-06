@@ -1,0 +1,6 @@
+projectKey=frinsta:MavenWeb
+serverUrl=http://localhost:9000
+serverVersion=6.7.0.33306
+dashboardUrl=http://localhost:9000/dashboard/index/frinsta:MavenWeb
+ceTaskId=AWAscTFGBij5iM5YNh83
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWAscTFGBij5iM5YNh83
